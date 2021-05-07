@@ -4,6 +4,7 @@
   "private": true,
   "author": "Chong Guo <armourcy@gmail.com>",
   "scripts": {
+    "onlyServe": "vue-cli-service serve",
     "serve": "concurrently \"npm:mock\" \"vue-cli-service serve\"",
     "test:unit": "jest --clearCache && vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
@@ -78,16 +79,14 @@
     "@types/yamljs": "^0.2.31",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
-    "@vue/cli-plugin-babel": "^4.5.8",
-    "@vue/cli-plugin-eslint": "^4.5.8",
-    "@vue/cli-plugin-pwa": "^4.5.8",
-    "@vue/cli-plugin-router": "^4.5.8",
-    "@vue/cli-plugin-typescript": "^4.5.8",
-    "@vue/cli-plugin-unit-jest": "^4.5.8",
-    "@vue/cli-plugin-vuex": "^4.5.8",
-    "@vue/cli-service": "^4.5.8",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^1.1.1",
     "babel-loader": "^8.1.0",
     "concurrently": "^5.3.0",
@@ -109,7 +108,7 @@
     "vue-cli-plugin-element": "^1.0.1",
     "vue-cli-plugin-style-resources-loader": "^0.1.4",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.3.2"
+    "webpack": "^4.44.2"
   },
   "bugs": {
     "url": "https://github.com/armour/vue-typescript-admin-template/issues"
